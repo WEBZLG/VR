@@ -1,0 +1,67 @@
+
+
+.foot_module .vr .func_name{
+	background-image:url(../../img/village/vr_white.png);
+}
+.foot_module .vr .vr_active{
+	background-image:url(../../img/village/vr_color.png);
+}
+.list_module .foot_module .vr{
+	width: 5.3rem;
+}
+.list_module .foot_module .vr .func_name .name{
+	color: #000;
+	opacity: .2;	
+}
+.list_module .foot_module .vr .vr_active .name{
+	color: #000;
+	opacity: .7;
+}
+.list_module .foot_module .daohang{
+	width: 8rem;
+}
+
+/*.list_module .lM_title .vr_video_box{
+	position: absolute;
+	right:0.64rem;
+	top: 0.341333rem;
+	display: flex;
+	display: -webkit-flex;
+}
+.list_module .lM_title .lM_vr{
+	width: 3.413333rem;
+	height: 1.28rem;
+	background-image: url(../../img/village/vr_logo.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.list_module .lM_title .lM_video{
+	margin-left: 10px;
+	background-image: url(../../img/village/video_logo.png);
+}*/
+.list_module .lM_title .lM_name{
+	width: 7.2rem;
+}
+#village .middle_module .m_content .village_second{
+    background-image: url(../../img/snack/pic2.png);	
+}
+/*#village .middle_module .m_content .village_third {
+    background-image: url(../../img/snack/pic3.png);
+}*/
+#village .middle_module .m_content .village_third>img{
+	height: 100%;
+	width: 100%;
+}
+.bg_color{
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.villageT_color{
+	background-image: url(../../img/village/title_color.png);
+}
+.village_tab_color{
+	background-image: url(../../img/village/tab_color.png);
+}
+.btn_village_color{
+	background-image: url(../../img/village/btn_color.png);
+}

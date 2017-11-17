@@ -1,0 +1,21 @@
+/*------农家乐--------*/
+#farmhouse .middle_module .m_content .farmhouse_second{
+	background-image: url(../../img/farmhouse/banner2.png);
+}
+#farmhouse .middle_module .m_content .farmhouse_third{
+	background-image: inherit;
+}
+
+.bg_color{
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.farmhouseT_color{
+	background-image: url(../../img/farmhouse/title_color.png);
+}
+.farmhouse_tab_color{
+	background-image: url(../../img/farmhouse/tab_color.png);
+}
+.btn_farmhouse_color{
+	background-image: url(../../img/farmhouse/btn_color.png);
+}

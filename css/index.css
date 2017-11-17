@@ -1,0 +1,121 @@
+/*------首页---------*/
+#app_box{
+	padding: 0.576rem 0.64rem 0.362667rem;
+	font-size: 0.682667rem;
+	color: #ffffff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+	letter-spacing:2px;
+}
+#app_box a{
+	display: block;
+	height: 100%;
+	width: 100%;
+	color: #fff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+	letter-spacing:2px;
+	position: relative;
+}
+#app_box .module_box{
+	display: -webkit-flex; /* Safari */
+  	display: flex;
+  	margin-bottom:0.213333rem;
+}
+
+#app_box .module_box .module_font{
+	height: 4.736rem;
+	line-height: 5.973333rem;
+    	text-align: center;
+   	 font-weight: 600;
+	position: relative;
+}
+#app_box .module_box .module_vr{
+	width: 6.826667rem;
+	background-color: #ff5855;
+	border-top-left-radius: 10px;
+    	margin-right: 0.213333rem;
+}
+#app_box .module_box .module_font .bg{
+	height: 1.28rem;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top: 1.28rem;
+}
+#app_box .module_box .module_vr .module_vr_bg{
+	width: 2.432rem;
+	background-image: url(../img/home_page/vr.png);
+	left: 2.197333rem;
+}
+#app_box .module_box .module_img{
+	height: 4.736rem;
+	line-height: 4.736rem;
+    	font-weight: 600;
+	flex:auto;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+#app_box .module_box .module_img a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+#app_box .module_box .module_voice_tour a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+#app_box .module_box .module_village{
+	background-image: url(../img/home_page/village.png);
+}
+#app_box .module_box .module_voice_tour{
+	width: 100%;
+	height: 4.736rem;
+	line-height: 4.736rem;
+	text-align: center;
+	background: url(../img/home_page/voice.png) no-repeat;
+	background-size: 100%;
+	font-size: 0.853333rem;
+}
+#app_box .module_box .module_snack{
+	background-image: url(../img/home_page/snack.png);
+}
+#app_box .module_box .module_specialty{
+	width: 5.973333rem;
+	background-color: #25b3ed;
+    margin-left: 0.213333rem;
+}
+#app_box .module_box .module_specialty .module_specialty_bg{
+	width: 1.706667rem;
+	background-image: url(../img/home_page/techan.png);
+	left: 2.133333rem;
+}
+#app_box .module_box .module_farmhouse{
+	width: 5.973333rem;
+	background-color: #ffae0b;
+    margin-right: 0.213333rem;
+}
+#app_box .module_box .module_farmhouse .module_farmhouse_bg{
+	width: 2.048rem;
+	background-image: url(../img/home_page/farmhouse.png);
+	left: 1.962667rem;
+}
+
+#app_box .module_box .module_folk{
+	background-image: url(../img/home_page/folk.png);
+}
+#app_box .module_box .module_liveIn{
+	background-image: url(../img/home_page/livein.png);
+}
+#app_box .module_box .module_music{
+	width: 5.973333rem;
+	background-color: #43be67;
+    margin-left: 0.213333rem;
+    border-bottom-right-radius: 10px;
+}
+#app_box .module_box .module_music .module_music_bg{
+	width: 1.450667rem;
+	background-image: url(../img/home_page/musicbox.png);
+	left: 2.261333rem;
+}
+

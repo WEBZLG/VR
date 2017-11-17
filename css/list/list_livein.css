@@ -1,0 +1,34 @@
+/*--------住在乐都----------*/
+.list_module .lM_title .lM_vr{
+	width: 3.413333rem;
+	height: 1.28rem;
+	background-image: url(../../img/village/vr_logo.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+/*	position: absolute;
+	right:0.64rem;
+	top: 0.341333rem;*/
+}
+.list_module .lM_title .lM_video{
+	/*right:4.2rem;*/
+	background-image: url(../../img/village/video_logo.png);
+}
+#livein .middle_module .m_content .livein_second{
+	background-image: url(../../img/livein/banner2.png);
+}
+#livein .middle_module .m_content .livein_third{
+	background-image:inherit;
+}
+.bg_color{
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.liveinT_color{
+	background-image: url(../../img/livein/title_color.png);
+}
+.livein_tab_color{
+	background-image: url(../../img/livein/tab_color.png);
+}
+.btn_livein_color{
+	background-image: url(../../img/livein/btn_color.png);
+}

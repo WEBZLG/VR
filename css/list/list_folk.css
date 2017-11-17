@@ -1,0 +1,66 @@
+/*-------民俗节庆列表---------*/
+/*.middle_module .m_content .folk_bg{
+	background-image: url(../../img/folk/folk_bg.png);
+}*/
+/*.middle_module .m_content .folk_second{
+	background-image: url(../../img/folk/folk2.png);
+}
+.middle_module .m_content .folk_third{
+	background-image: url(../../img/folk/folk3.png);
+}*/
+.middle_module .m_content .folk_img{
+    display: block;
+    width: 15.146667rem;
+    height: 8.448rem;
+}
+.middle_module .m_content .folk_img img{
+	width:100%;
+}
+.list_module .middle_module .activity_status{
+	position: absolute;
+	top: 0.64rem;
+	left: -0.213333rem;
+	width: 60px;
+	height: 30px;
+	background-size: 100%;
+	text-indent: 10px;
+	line-height: 34px;
+	font-size: 12px;
+	color: #fff;
+}
+.list_module .middle_module .act_now{
+	background-image: url(../../img/folk/act_now.png);
+}
+.list_module .middle_module .act_will{
+	width: 70px;
+	background-image: url(../../img/folk/act_will.png);
+}
+.list_module .middle_module .act_over{
+	background-image: url(../../img/folk/act_over.png);
+}
+.middle_module  .talk .act_time{
+	float: left;
+	text-indent: 0.64rem;
+}
+.bg_color{
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.folkT_color{
+	background-image: url(../../img/folk/title_color.png);
+}
+.folk_tab_color{
+	background-image: url(../../img/folk/tab_color.png);
+}
+.btn_folk_color{
+	background-image: url(../../img/folk/btn_color.png);
+}
+
+
+
+
+
+
+
+
+

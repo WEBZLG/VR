@@ -1,0 +1,42 @@
+/*---------住在乐都详情-----------*/
+#livein_detail .banner_box .vr_lg{
+	position: absolute;
+	z-index: 100;
+	top:0.426667rem;
+	right: 0.426667rem;
+	width: 1.493333rem;
+	height: 1.493333rem;
+	background-size: 100%;
+	background-image: url(../../img/farmhouse/detail/vr_lg.png);
+	
+	background-repeat: no-repeat;
+}
+#livein_detail .shop_mesb .sM_title .tenant_icon {
+    background: url(../../img/livein/detail/tenant_icon.png) no-repeat;
+ 	background-size: 100%;
+}
+#livein_detail .shop_mesb .sM_title .text_icon {
+    background: url(../../img/livein/detail/text_icon.png) no-repeat;
+    background-size: 100%;
+}
+ .ex_nav .visitor_icon1.active {
+    background-image: url(../../img/livein/detail/visitor-2.png);   
+}
+.ex_nav .visitor_icon2.active {
+    background-image: url(../../img/livein/detail/point-2.png);   
+}
+.bg_color{
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.btn_livein_color{
+	background-image: url(../../img/livein/btn_color.png);
+}
+.textColor {
+    background: -moz-linear-gradient(left, #ff7a8c 0%, #ff9a5a 100%);
+    background: -webkit-linear-gradient(left, #ff7a8c 0%, #ff9a5a 100%);
+    background: -ms-linear-gradient(left, #ff7a8c 0%, #ff9a5a 100%);
+    background: -o-linear-gradient(left, #ff7a8c 0%, #ff9a5a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} 

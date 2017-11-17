@@ -1,0 +1,20 @@
+/*-------特产-------*/
+#techan .middle_module .m_content .techan_second{
+	background-image: url(../../img/techan/pic2.png);
+}
+#techan .middle_module .m_content .techan_third{
+	background-image: inherit;
+}
+.bg_color{
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.techanT_color{
+	background-image: url(../../img/techan/title_color.png);
+}
+.techan_tab_color{
+	background-image: url(../../img/techan/tab_color.png);
+}
+.btn_techan_color{
+	background-image: url(../../img/techan/btn_color.png);
+}

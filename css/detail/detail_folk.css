@@ -1,0 +1,29 @@
+#folk_detail .shop_mesb .sM_title .tenant_icon {
+    background: url(../../img/folk/detail/tenant_icon.png) no-repeat;
+ 	background-size: 100%;
+}
+#folk_detail .shop_mesb .sM_title .text_icon {
+    background: url(../../img/folk/detail/text_icon.png) no-repeat;
+    background-size: 100%;
+}
+ .ex_nav .visitor_icon1.active {
+    background-image: url(../../img/folk/detail/visitor-2.png);   
+}
+.ex_nav .visitor_icon2.active {
+    background-image: url(../../img/folk/detail/point-2.png);   
+}
+.bg_color{
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.btn_folk_color{
+	background-image: url(../../img/folk/btn_color.png);
+}
+.textColor {
+    background: -moz-linear-gradient(left, #ff7a8c 0%, #ff9a5a 100%);
+    background: -webkit-linear-gradient(left, #ff7a8c 0%, #ff9a5a 100%);
+    background: -ms-linear-gradient(left, #ff7a8c 0%, #ff9a5a 100%);
+    background: -o-linear-gradient(left, #ff7a8c 0%, #ff9a5a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} 

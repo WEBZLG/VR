@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>全景VR</title>
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<link rel="stylesheet" href="../../css/swiper.css">
+		<link rel="stylesheet" href="../../css/reset.css">
+		<link rel="stylesheet" href="../../css/common.css">
+		<link rel="stylesheet" href="../../css/detail.css">
+		<link rel="stylesheet" href="../../css/overallVr.css">
+		<script src="../../script/jquery.js"></script>
+		<script src="../../script/common.js"></script>
+	</head>
+	<body>
+		<div id="overall_Vr">
+			<!-- 评论按钮 -->
+			<div class="comment"></div>
+			<div class="shadow none" id="speak">
+				<div class="alert_box">
+					<div class="ex_content">
+						<div class="comment_tab ex_tab">
+							<ul>
+								<li class="comment_list">
+									<div class="con_top">
+										<div class="head_img"><img src="../../img/snack/detail/Oval 2.png"></div>
+										<div class="name_time">
+											<p class="person_name">非常完美1</p>
+											<p class="comment_time">2017-03-14  15：30</p>
+										</div>
+									</div>
+									<div class="con_text">
+										<p>价格实惠，非常干净，环境很好，性价比高，位置繁华，服务好!</p>
+									</div>
+								</li>
+								<li class="comment_list">
+									<div class="con_top">
+										<div class="head_img"><img src="../../img/snack/detail/Oval 3.png"></div>
+										<div class="name_time">
+											<p class="person_name">非常完美2</p>
+											<p class="comment_time">2017-03-14  15：30</p>
+										</div>
+									</div>
+									<div class="con_text">
+										<p>价格实惠，非常干净，环境很好，性价比高，位置繁华，服务好!</p>
+									</div>
+								</li>
+								<li class="comment_list">
+									<div class="con_top">
+										<div class="head_img"><img src="../../img/snack/detail/Oval 3.png"></div>
+										<div class="name_time">
+											<p class="person_name">非常完美2</p>
+											<p class="comment_time">2017-03-14  15：30</p>
+										</div>
+									</div>
+									<div class="con_text">
+										<p>价格实惠，非常干净，环境很好，性价比高，位置繁华，服务好!</p>
+									</div>
+								</li>
+								<li class="comment_list">
+									<div class="con_top">
+										<div class="head_img"><img src="../../img/snack/detail/Oval 3.png"></div>
+										<div class="name_time">
+											<p class="person_name">非常完美2</p>
+											<p class="comment_time">2017-03-14  15：30</p>
+										</div>
+									</div>
+									<div class="con_text">
+										<p>价格实惠，非常干净，环境很好，性价比高，位置繁华，服务好!</p>
+									</div>
+								</li>
+								<li class="comment_list">
+									<div class="con_top">
+										<div class="head_img"><img src="../../img/snack/detail/Oval 3.png"></div>
+										<div class="name_time">
+											<p class="person_name">非常完美2</p>
+											<p class="comment_time">2017-03-14  15：30</p>
+										</div>
+									</div>
+									<div class="con_text">
+										<p>价格实惠，非常干净，环境很好，性价比高，位置繁华，服务好!</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="alert_content">
+						<h3 class="title t_color">您的评论，是对乐游乐都的最大支持</h3>
+						<textarea name="" id=""  rows="10" onfocus="if(value=='最少字数没有限制，最多不超过200字，如果用户留言多出200字，自动截取'){value=''}" onblur="if (value ==''){value='最少字数没有限制，最多不超过200字，如果用户留言多出200字，自动截取'}">最少字数没有限制，最多不超过200字，如果用户留言多出200字，自动截取</textarea>
+					</div>
+					<div class="alert_bottom">
+						<div class="t_color btn_cancel">取消</div>
+						<div class="mcolor btn_sure">确定</div>
+					</div>
+				</div>
+				<!-- 分页 -->
+<!-- 				<div class="page_change">
+					<div class="prve">上一页</div>
+					<div class="next">下一页</div>
+				</div> -->
+			</div>
+		</div>
+		<script type="text/javascript">
+		$(document).ready(function(){   
+			// var w_height = $(window).height()-662+"rem"; //浏览器当前窗口可视区域高度 
+			// console.log(w_height);
+			// $(".alert_box .ex_content").css("max-height",w_height);
+			 var iframe = document.createElement("iframe");
+			 iframe.src = "http://www.kuleiman.com/kuleiman/101401";
+			 iframe.onload = function() {
+			 	setTimeout(function(){
+			 		$(".comment").css("display","block");		 		
+			 	},8000)
+			 };
+			 document.getElementById('overall_Vr').appendChild(iframe);
+			 // VR评论弹窗
+			shadow($(".comment"),$('#speak').find('.btn_cancel'),$('#speak'))
+			// 弹窗出现与消失
+			function shadow(dom,dom1,target){
+				dom.on('click',function(){
+					target.show();	
+				});
+				dom1.on('click',function(){
+					target.hide();		
+				})
+			        };
+			})
+		</script>
+	</body>
+</html>

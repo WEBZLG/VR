@@ -1,0 +1,41 @@
+
+
+.list_module .lM_title .lM_vr{
+	width: 3.413333rem;
+	height: 1.28rem;
+	background-image: url(../../img/village/vr_logo.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+/*	position: absolute;
+	right:0.64rem;
+	top: 0.341333rem;*/
+}
+.list_module .lM_title .lM_video{
+	/*right:4.2rem;*/
+	background-image: url(../../img/village/video_logo.png);
+}
+.list_module .lM_title .lM_name{
+	width: 7.2rem;
+}
+#vt_list .middle_module .m_content{
+	border-radius: 0.426667rem;
+	overflow: hidden;
+}
+#vt_list .middle_module .m_content .vt_first,
+#vt_list .middle_module .m_content .vt_second,
+#vt_list .middle_module .m_content .vt_third {
+    background-image: inherit;
+}
+.bg_color{
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.voicetT_color{
+	background-image: url(../../img/voicet/title_color.png);
+}
+.voicet_tab_color{
+	background-image: url(../../img/voicet/tab_color.png);
+}
+.btn_voicet_color{
+	background-image: url(../../img/voicet/btn_color.png);
+}

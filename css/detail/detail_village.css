@@ -1,0 +1,50 @@
+
+.shop_mesb .sM_mes .tour_mes{
+	margin-left: 0.64rem;
+	background-image: url(../../img/village/detail/t_mes.png);
+	background-size: 14px;
+	background-repeat: no-repeat;
+	background-position: 0 2px;
+	font-size: 14px;
+	line-height: 18px;
+}
+.shop_mesb .sM_mes .tour_mes .t_mes{
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 0.64rem;
+}
+.text_present .img_module{
+
+	/*padding: 0.256rem 0.426667rem 0.170667rem;*/
+}
+
+
+#village_detail .shop_mesb .sM_title .tenant_icon {
+    background: url(../../img/village/detail/tenant_icon.png) no-repeat;
+ 	background-size: 100%;
+}
+#village_detail .shop_mesb .sM_title .text_icon {
+    background: url(../../img/village/detail/text_icon.png) no-repeat;
+    background-size: 100%;
+}
+ .ex_nav .visitor_icon1.active {
+    background-image: url(../../img/village/detail/visitor-2.png);   
+}
+.ex_nav .visitor_icon2.active {
+    background-image: url(../../img/village/detail/point-2.png);   
+}
+.bg_color{
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.btn_village_color{
+	background-image: url(../../img/village/btn_color.png);
+}
+.textColor {
+    background: -moz-linear-gradient(left, #9762e8 0%, #FA8746 100%);
+    background: -webkit-linear-gradient(left, #9762e8 0%, #FA8746 100%);
+    background: -ms-linear-gradient(left, #9762e8 0%, #FA8746 100%);
+    background: -o-linear-gradient(left, #9762e8 0%, #FA8746 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}   

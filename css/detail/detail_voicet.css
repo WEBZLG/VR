@@ -1,0 +1,93 @@
+/*----------------*/
+#voicet_detail .shop_mesb .sM_title_vt {
+    position: relative;
+    height:3.413333rem;
+    padding: 0;
+    display: flex;
+    display: -webkit-flex;
+}
+#voicet_detail .shop_mesb .sM_title_vt .radio_btn{
+	width: 5.973333rem;
+	margin:0 auto;
+	display: flex;
+	display: -webkit-flex;
+	 align-items:center;
+}
+#voicet_detail .shop_mesb .sM_title_vt .radio_btn .radio_prev{
+	width: 1.28rem;
+	height: 1.28rem;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-image: url(../../img/voicet/prev.png);
+}
+#voicet_detail .shop_mesb .sM_title_vt .radio_btn .radio_next{
+	width: 1.28rem;
+	height: 1.28rem;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-image: url(../../img/voicet/next.png);
+}
+#voicet_detail .shop_mesb .sM_title_vt .radio_btn .radio_start{
+	width: 2.133333rem;
+	height: 2.133333rem;
+	margin:0 0.64rem;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-image: url(../../img/voicet/start.png);
+}
+#voicet_detail .shop_mesb .sM_title_vt .radio_btn .radio_start.active{
+	background-image: url(../../img/voicet/auto_stop.png)
+}
+#voicet_detail .shop_mesb{
+	border:0;
+}
+#voicet_detail .shop_mesb .sM_title_vt .sM_video {
+    width: 3.413333rem;
+    height: 1.28rem;
+    background-image: url(../../img/snack/video_logo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0.64rem;
+    top: 1.066667rem;
+}
+
+#voicet_detail .shop_mesb .sM_title_vt .sM_text {
+    width: 3.413333rem;
+    height: 1.28rem;
+    background-image: url(../../img/snack/detail/text.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0.64rem;
+    top: 1.066667rem;
+}
+#voicet_detail .shop_mesb .sM_title_vt .autio_item{
+	position: absolute;
+	z-index: 0;
+	width: 15.573333rem;
+	height: 56px;
+	top: -56px;
+	left: 0.213333rem;
+	background-color: inherit;
+      visibility: hidden;
+}
+.bg_color{
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.btn_voicet_color{
+	background-image: url(../../img/voicet/btn_color.png);
+}
+.border_tb{
+	border-top: 10px solid #f6f6f6;
+	border-bottom: 10px solid #f6f6f6;
+}
+.textColor {
+    background: -moz-linear-gradient(left, #9762e8 0%, #4ccde9 100%);
+    background: -webkit-linear-gradient(left, #9762e8 0%, #4ccde9 100%);
+    background: -ms-linear-gradient(left, #9762e8 0%, #4ccde9 100%);
+    background: -o-linear-gradient(left, #9762e8 0%, #4ccde9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} 

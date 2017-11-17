@@ -1,0 +1,131 @@
+﻿#overall_Vr{
+    height: 100%;
+    position: relative;
+}
+#overall_Vr .comment{
+    position: absolute;
+    right: 8px;
+    top: 36%;
+    z-index: 3025;
+    overflow: visible;
+    opacity: 1;
+    cursor: pointer;
+    pointer-events: auto;
+    background-image: url(http://vr.kuleiman.com/Public/panonn/images/gongneng.png);
+    width: 32px;
+    height: 32px;
+    background-position: 0px -288px;
+    background-size: 32px 457.143px;
+    display: none;
+}
+iframe{
+	height: 100%;
+	width: 100%;
+}
+
+
+/*评论*/
+.comment_tab{
+	height: 12rem;
+}
+.ex_content{
+    overflow: auto;
+    position: relative;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.ex_content .comment_list{
+    padding-top: 0.64rem ;
+}
+.comment_list .con_top{
+    display: flex;
+}
+.ex_content .head_img{
+    height: 1.706667rem;
+    width:1.706667rem;
+    overflow: hidden;
+    margin-left: 0.64rem;
+    margin-right: 0.341333rem
+}
+.con_top  .name_time{
+    flex: auto;
+}
+.comment_list .head_img img{
+    width: 100%;
+}
+.ex_content .person_name{
+    font-size: 0.554667rem;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 0.213333rem;
+}
+.ex_content .comment_time{
+    font-size:0.512rem;
+    color: rgba(0, 0, 0, 0.3);
+    margin-top: 0.213333rem;
+}
+.ex_content .zan_time{
+    font-size:0.512rem;
+    color: rgba(0, 0, 0, 0.3);
+    margin-top: 0.213333rem;
+}
+.ex_content .con_text{
+    font-size:14px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.6);
+    margin: 0.32rem 0.64rem 0 2.56rem;
+    padding-bottom: 0.64rem;
+    border-bottom: 1px solid #e5e5e5;
+}
+.ex_content .comment_list:last-child .con_text{
+    border:none;
+}
+#speak .alert_box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -9.5rem;
+    margin-left: -7.5rem;
+    width: 15rem;
+    background-color: #fff;
+    border-radius: 0.213333rem;
+    font-size: 0.597333rem;
+    overflow: hidden;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.2)
+}
+#speak .alert_box .alert_content textarea {
+    border: 1px solid #e9e9e9;
+    width: 13.44rem;
+    letter-spacing: 1px;
+    height: 2.845333rem;
+    outline: none;
+    color: #000;
+    opacity: .6;
+    }
+    /*分页*/
+   .page_change {
+     position: absolute;
+    bottom: 8rem;
+    left: 0;
+    width: 100%;
+    display: flex;
+    }
+    .page_change .prve,
+    .page_change .next{
+        flex: 1;
+        text-align: center;
+        font-size:0.597333rem;
+        height: 30px;
+        line-height: 30px;
+        color: #fff;
+        border-radius: 2px;
+        background-color: rgba(0,0,0,.5);
+    }
+  .page_change .prve{
+        margin-left: 3rem;
+        margin-right: 1rem;
+    }
+  .page_change .next{
+        margin-right: 3rem;
+        margin-left: 1rem;
+  }
